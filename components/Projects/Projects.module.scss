@@ -1,0 +1,32 @@
+.sectionTitle {
+  background: linear-gradient(to right, #ff8660, #d5491d);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -85px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 240px;
+    height: 159px;
+    background-image: url("/assets/line1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.cardsContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  @media screen and (max-width: 1340px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media screen and (max-width: 950px) {
+    grid-template-columns: 1fr;
+  }
+}

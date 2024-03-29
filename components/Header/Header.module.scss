@@ -1,0 +1,43 @@
+.header {
+  background-color: #222222;
+
+  box-shadow: 5px 27px 21px -13px rgba(34, 34, 34, 1);
+
+  box-shadow: 0px 20px 76px 0px rgba(34, 34, 34, 1);
+  position: relative;
+  z-index: 10;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 2rem;
+  background: linear-gradient(to right, #b16cea, #ff5e69, #ff8a56, #ffa84b);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.nav li {
+  padding: 0.5rem 0.5rem;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  &:hover {
+    background-color: rgba(107, 107, 107, 0.518);
+    transform: translateY(-3px);
+  }
+}
+
+.mobileUl {
+  .active {
+    background-color: rgba(107, 107, 107, 0.518);
+  }
+  a {
+    width: 100%;
+    padding: 0.5rem 0.5rem;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    &:hover {
+      background-color: rgba(107, 107, 107, 0.518);
+      transform: translateX(6px);
+    }
+  }
+}

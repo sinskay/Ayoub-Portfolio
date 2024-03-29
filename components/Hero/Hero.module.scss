@@ -1,0 +1,16 @@
+.hero {
+  background-image: url("/assets/backgrounds/background.svg");
+  background-image: url("/assets/backgrounds/NEUMORPHIC_CIRCLES_BACKGROUND.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.avatar {
+  background: linear-gradient(to right, #b16cea, #ff5e69, #ff8a56, #ffa84b);
+}
+.specialWord {
+  background: linear-gradient(to right, #b16cea, #ff5e69, #ff8a56, #ffa84b);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}

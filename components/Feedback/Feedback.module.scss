@@ -1,0 +1,20 @@
+.sectionTitle {
+  background: linear-gradient(to right, #5badff, #1373d1);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -85px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 240px;
+    height: 159px;
+    background-image: url("/assets/line2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
