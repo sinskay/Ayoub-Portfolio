@@ -16,31 +16,31 @@ export function InfiniteMovingCardsDemo() {
 export const testimonials = [
   {
     quote: "I am very happy with the service I received from Ayoub. he is very patient and take the time to explain things to you. I would highly recommend them to anyone looking for a reliable and professional company.",
-    name: "Charles Dickens",
+    name: "Pilot Harout",
     rate: 5,
     image: "/assets/avatars/avatar1.svg",
   },
   {
     quote: "Absolutely thrilled with the service provided by Ayoub! His patience and willingness to explain every detail made the process smooth and stress-free. I highly recommend him to anyone seeking professionalism and reliability.",
-    name: "William Shakespeare",
+    name: "Creative Kingdom",
     rate: 4,
     image: "/assets/avatars/avatar2.svg",
   },
   {
     quote: "I cannot speak highly enough of Ayoub's service. His patience and expertise were evident throughout, and he took the time to ensure I was completely satisfied. I wouldn't hesitate to recommend him to anyone in need of a trustworthy professional.",
-    name: "Edgar Allan Poe",
+    name: "Imad",
     rate: 4.5,
     image: "/assets/avatars/avatar3.svg",
   },
   {
     quote: "Ayoub's service was outstanding from start to finish. His patience and dedication to ensuring I understood everything were truly appreciated. I wouldn't hesitate to recommend him to anyone looking for a dependable and professional service provider.",
-    name: "Jane Austen",
+    name: "Ahmed Ali",
     rate: 4.5,
     image: "/assets/avatars/avatar4.svg",
   },
   {
     quote: "Thanks to Ayoub, my experience was seamless and stress-free. His patience and expertise were evident throughout, and I couldn't be happier with the results. I highly recommend him to anyone in need of top-notch service.",
-    name: "Herman Melville",
+    name: "Amine Mohamed",
     rate: 5,
     image: "/assets/avatars/avatar5.svg",
   },
